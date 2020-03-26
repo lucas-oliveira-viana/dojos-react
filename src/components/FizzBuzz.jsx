@@ -4,6 +4,7 @@ import '../styles/fizzbuzz.css'
 const FizzBuzz = () => {
     return (
         <section id="fizzbuzz">
+            <h1>FIZZBUZZ</h1>
             <div className="fizzbuzz__top">
                 <label className="fizzbuzz__label">Insira a quantidade: </label>
                 <input type="text" className="fizzbuzz__input" />

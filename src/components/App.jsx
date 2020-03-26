@@ -1,13 +1,15 @@
 import React from 'react'
-import Navbar from './Navbar'
+// import Navbar from './Navbar'
 import { FizzBuzz } from './FizzBuzz'
+import Marvel from './Marvel'
 import '../styles/layout.css'
 
 const App = () => {
-    return(
+    // <Navbar/>
+    return (
         <React.Fragment>
-            <Navbar/>
             <FizzBuzz/>
+            <Marvel />
         </React.Fragment>
     )
 }
